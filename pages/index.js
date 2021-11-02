@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar/Navbar'
 import styles from '../styles/Home.module.css'
 import Link from "next/link"
 import Footer from '../components/Footer/Footer'
+
 export default function Home() {
   return (
     <div className={styles.container}>
