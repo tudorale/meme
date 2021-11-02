@@ -62,7 +62,7 @@ export default function Home() {
           <div className={styles.sectionGrid}>
             <div className={styles.sectionLeft}>
 
-              <iframe width="600" height="340" src="https://www.youtube.com/embed/Y67pF2tl4zc?autoplay=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+              <iframe className={styles.video} width="600" height="340" src="https://www.youtube.com/embed/Y67pF2tl4zc?autoplay=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
             </div>
             <div className={styles.sectionRight}>
               <div className={styles.criteria}>
