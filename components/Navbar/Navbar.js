@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "./Navbar.module.css";
 import Link from "next/link"
-import Image from 'next/image';
+
 function Navbar() {
 
     let status = false;
