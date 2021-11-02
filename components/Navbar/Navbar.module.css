@@ -4,20 +4,21 @@
     background: white;
     box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.062);
     position: fixed;
-    z-index: 9999;
+    z-index: 997;
     top: 0;
     display: flex;
     justify-content: space-between;
 }
 
 .logo {
-    margin-left: 60px;
+    margin-left: 10px;
     cursor: pointer;
 }
 
 .icons {
     display: flex;
     margin-top: 10px;
+    margin-left: 30px;
 }
 
 .icons svg {
@@ -27,7 +28,7 @@
 
 
 .links {
-    margin-right: 50px;
+    margin-right: 20px;
 }
 
 .links ul{
@@ -40,4 +41,151 @@
     font-size: 1.1rem;
     cursor: pointer;
     font-weight: 400;
+}
+
+.hamburger {
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    margin-top: 12px;
+    display: none;
+    margin-left: 20px;;
+}
+
+.line {
+    width: 25px;
+    height: 3px;
+    background: var(--dark);
+    margin-top: 5px;
+}
+
+.mobileNavbar{
+    background: white;
+    width: 330px;
+    height: 100vh;
+    z-index: 999;
+    position: fixed;
+    transition: all 350ms linear;
+    transform: translateX(-500px);
+    border-radius: 0px 30px 30px 0px;
+}
+.close{
+    margin-left: 20px;
+    margin-top: 5px;
+    position: absolute;
+    left: 0;
+}
+
+.closeLine {
+    width: 30px;
+    height: 2px;
+    background: var(--dark);;
+    margin-top: 10px;
+}
+
+.closeLine:nth-child(1){
+    transform: rotate(45deg);
+    position: relative;
+    top: 12px;
+}
+
+.closeLine:nth-child(2){
+    transform: rotate(-45deg);
+}
+
+.mobileLogo {
+    margin-top: 3px;
+    position: relative;
+    top: 3px;
+    margin-left: 30px;
+}
+
+.mobileUpper {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #E4E4E4;
+}
+
+.mobileLinks ul {
+    list-style: none;
+    margin-top: 30px;
+    margin-left: -17px;
+}
+
+.mobileLinks ul li {
+    font-weight: 600;
+    font-size: 1.15rem;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.mobileIcons {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.mobileIcons svg {
+    cursor: pointer;
+    margin: 15px 10px;
+}
+
+.addonMobile {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    opacity: 0; /* */
+    z-index: -1; /* */
+    visibility: hidden;
+    transition: all 300ms ease;
+}
+
+@media only screen and (max-width: 1025px) {
+    .links {
+        display: none;
+    }
+
+    .icons {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .navbar{
+        justify-content: center;
+    }
+
+    .logo {
+        margin-left: 40px;
+    }
+
+    .logo img {
+        width: 210px;
+        height: 40px;
+        margin-top: 7px;
+    }
+}
+
+@media only screen and (min-width: 1026px){
+    .addonMobile {
+        opacity: 0 !important; 
+        visibility: hidden !important;
+        z-index: -1 !important;
+    }
+
+    .mobileNavbar {
+        transform: translateX(-500px) !important;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    .mobileNavbar {
+        width: 300px;
+    }
 }

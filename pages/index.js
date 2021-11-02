@@ -19,7 +19,7 @@ export default function Home() {
         <div className={styles.leftHero}>
           <div className={styles.heroContent}>
             <h1>Don&apos;t let<br/>Your Memes</h1>
-            <h2>Be Dreams</h2>
+            <h2>Be Dreams!</h2>
 
             <div className={styles.buttons}>
               <Link passHref href="/airdrop"><p>AirDrop <b>IN PROGRESS</b></p></Link>
@@ -41,7 +41,7 @@ export default function Home() {
           </div>
         </div>
         <div>
-          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg className={styles.phaseArrow} width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M5 16H27" stroke="#D21C0E" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
             <path d="M18 7L27 16L18 25" stroke="#D21C0E" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
@@ -112,9 +112,9 @@ export default function Home() {
           <p className={styles.token}>MEME</p>
 
           <div className={styles.badgets}>
-            <span>Max supply</span>
-            <span>Strict Limit</span>
-            <span>Never Increased only BURNED</span>
+            <span className={styles.badgeOne}>Max supply</span>
+            <span className={styles.badgeTwo}>Strict Limit</span>
+            <span className={styles.badgeThree}>Never Increased only BURNED</span>
           </div>
         
           <div className={styles.chart}>
@@ -243,12 +243,16 @@ export default function Home() {
           <h1>Roadmap</h1>
 
           <div className={styles.roadmapContent}>
+
             <div className={styles.bigLine}></div>
+
+
             <div className={styles.one}>
               <p className={styles.date}>Q4 2021</p>
               <div className={styles.circle}></div>
               <div className={styles.line}></div>
               <div className={styles.roadmapText}>
+                <span className={styles.innerDate}>Q4 2021</span>
                 <p>- Social Media Campaign</p>
                 <p>- First Meme Company to Release a Meme Token center stage</p>
                 <p>- 40% of MEME Max Supply is Airdropped</p>
@@ -262,6 +266,7 @@ export default function Home() {
               <div className={styles.circle}></div>
               <div className={styles.line}></div>
               <div className={styles.roadmapText}>
+                <span className={styles.innerDate}>Q1 2022</span>
                 <p>- Launch of MemeMarketplace Exchange</p>
                 <p>- Start of MEME token BURN using exchange profits as referenced in Tokenomics</p>
                 <p>- Partnerships and Collaborations with estabilished NFT projects</p>
@@ -273,6 +278,7 @@ export default function Home() {
               <div className={styles.circle}></div>
               <div className={styles.line}></div>
               <div className={styles.roadmapText}>
+                <span className={styles.innerDate}>Q2 2022</span>
                 <p>- Secure partnerships with top influencers we invite to join our network</p>
                 <p>- Launch of Limited Run exclusive NFT collections</p>
               </div>
@@ -283,6 +289,7 @@ export default function Home() {
               <div className={styles.circle}></div>
               <div className={styles.line}></div>
               <div className={styles.roadmapText}>
+                <span className={styles.innerDate}>Q3 2022</span>
                 <p>- Additional benefits and privileges awarded to MEME token holders</p>
                 <p>- Strategic partnerships secured with NFT projects provide for additional utility for MEME</p>
                 <p>- Establish the MemePool (not the mempool lol)</p>
@@ -295,6 +302,7 @@ export default function Home() {
               <div className={styles.circle}></div>
               <div className={styles.line}></div>
               <div className={styles.roadmapText}>
+                <span className={styles.innerDate}>Q4 2022 and Beyond!</span>
                 <p>- Creation of the MemeDAO</p>
                 <p>- Continued community development and team expansion</p>
                 <p>Ongoing addition of exchange features and upgrades</p>
