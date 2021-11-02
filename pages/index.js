@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>MEME Marketplace</title>
+        <title>MemeMarketplace</title>
         <meta name="description" content="Meme Marketplace" />
         <link rel="icon" href="/favicon.png" />
       </Head>
