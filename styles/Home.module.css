@@ -187,6 +187,8 @@
 
 .criteria p {
     margin-left: 15px;
+    font-size: 1.05rem;
+    font-weight: 500;
 }
 
 .sectionDecoration {
@@ -506,7 +508,7 @@
 .bigLine {
     width: 5px;
     position: absolute;
-    height: 890px;
+    height: 783px;
     margin-left: 104px;
     margin-top: 91px;
     background: #F19298;
@@ -523,6 +525,7 @@
     font-weight: 600;
     position: relative;
     top: -10px;
+    display: none;
     font-size: 1.1rem;
 }
 
@@ -587,7 +590,7 @@
     }
 
     .bigLine {
-        height: 905px;
+        height: 805px;
     }
     
 }
@@ -618,11 +621,7 @@
     }
 
     .bigLine {
-        height: 820px;
-    }    
-
-    .bigLine {
-        height: 930px;
+        height: 815px;
     }
     
 }
@@ -703,6 +702,10 @@
 
     .roadmapText {
        padding-top: 20px;
+    }
+
+    .innerDate {
+        display: block;
     }
     
 }

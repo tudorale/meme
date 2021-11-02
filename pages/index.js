@@ -81,7 +81,7 @@ export default function Home() {
 
               <div className={styles.criteria} style={{marginTop: "20px"}}>
                 <div className={styles.number}>4</div>
-                <p>MemeMarketplace serves as the<br/> Normie NFT On-Ramp</p>
+                <p>MemeMarketplace serves as the Normie NFT On-Ramp</p>
               </div>
             </div>
           </div>
@@ -307,8 +307,8 @@ export default function Home() {
                 <span className={styles.innerDate}>Q4 2022 and Beyond!</span>
                 <p>- Creation of the MemeDAO</p>
                 <p>- Continued community development and team expansion</p>
-                <p>Ongoing addition of exchange features and upgrades</p>
-                <p>MEME token BURN continues until 50% of token Max Supply Remains</p>
+                <p>- Ongoing addition of exchange features and upgrades</p>
+                <p>- MEME token BURN continues until 50% of token Max Supply Remains</p>
                 <p><b>- WAGMI Frens!</b></p>
               </div>
             </div>
