@@ -1,0 +1,16 @@
+.footer{
+    padding: 50px 0px;
+}
+
+.icons {
+    width: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.icons svg {
+    cursor: pointer;
+}

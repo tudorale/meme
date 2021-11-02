@@ -6,7 +6,9 @@ function Navbar() {
     return (
         <div className={styles.navbar}>
             <div className={styles.logo}>
-                <Image src="/logo.png" alt="logo" width="250px" height="50"/>
+                <Link passHref href="/">
+                    <Image src="/logo.png" alt="logo" width="250px" height="50"/>
+                </Link>
             </div>
             <div className={styles.icons}>
                 <Link passHref href="#twitter">

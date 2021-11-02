@@ -9,6 +9,10 @@ body {
     color: var(--dark);
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 :root {
   --red: #D21C0E;
   --dark: #373737;

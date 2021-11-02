@@ -5,11 +5,22 @@
     height: 850px;
     position: relative;
     top: 56px;
+
+}
+
+.leftHero {
     background: url("/left.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
+} 
+
+.rightHero {
+    background: url("/illustration.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} 
 
 .heroContent {
     position: absolute;
@@ -58,27 +69,6 @@
     position: relative;
 }
 
-.rightHero img {
-    width: 600px;
-    height: 800px;
-    position: absolute;
-    right: 0;
-}
-
-/* .leftHero {
-    background: url("/left.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.rightHero {
-    background: url("/left.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-} */
 
 
 .phases {
@@ -195,4 +185,323 @@
     position: absolute;
     right: 0;
     top: 20px;
+}
+
+.tokenomics {
+    position: relative;
+    padding-top: 50px;
+    background: url("/vector.png");
+    background-size: cover;
+    background-position: left;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 150px;
+}
+
+.tokenomicsContent {
+    width: 1240px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tokenomicsContent h2 {
+    color: var(--red);
+    text-decoration: underline;
+}
+
+.tokenomicsContent h1 {
+    color: var(--red);
+    font-size: 4.5rem;
+}
+
+.token {
+    color: var(--red);
+    font-size: 1.7rem;
+    position: relative;
+    top: -65px;
+    font-weight: 600;
+}
+
+.tokenomicsContent h1:nth-child(2):after {
+    content: "";
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background: url("/fire.png");
+    background-size: cover;
+    margin-top: -25px;
+    margin-left: -15px;
+}
+
+.badgets {
+    display: flex;
+    width: 680px;
+    margin: 0 auto;
+    position: relative;
+    top: -60px;
+    justify-content: space-between;
+}
+
+.badgets span {
+    color: white;
+    background: var(--red);
+    padding: 8px 30px;
+    font-size: 1.1rem;
+    border-radius: 40px;
+}
+
+.chart {
+    display: flex;
+    align-items: center;
+    margin-left: -90px;
+    justify-content: center;
+}
+
+.content {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto;
+    grid-row-gap: 20px;
+    margin-left: 30px;
+}
+
+.content .wrapper {
+    display: grid;
+    grid-template-columns: 40px 90px 220px 150px;
+    grid-column-gap: 10px;
+    align-items: center;
+}
+
+.red, .green, .orange {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+}
+
+.green {
+    background: #BADC58;
+}
+
+.red {
+    background: #EB4D4B
+}
+
+.orange {
+    background: #F0932B;
+}
+
+.field {
+    background: #FAA9A2;
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+.grid {
+    position: relative;
+    top: 50px;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-row-gap: 20px;
+}
+
+.card1 {
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 11px 77px rgba(0, 0, 0, 0.1);
+    border-radius: 13px;
+}
+
+.cardGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cardUpper {
+    border-bottom: 2px solid #EDEDED;
+    padding-top: 7px;
+    font-size: 1.3rem;
+    padding-bottom: 25px;
+}
+
+.cardGrid .row h1 {
+    font-weight: 600;
+    font-size: 3.1rem;
+    margin-bottom: -15px;
+}
+
+.cardGrid .row p {
+    font-weight: 600;
+    padding: 0px 70px 30px 70px;
+}
+
+.card2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 50px;
+}
+
+.innerCardOne, .innerCardTwo {
+    height: 270px;
+    background: #FFFFFF;
+    box-shadow: 0px 11px 77px rgba(0, 0, 0, 0.1);
+    border-radius: 13px;
+}
+
+.innerCardOne .cardUpper, .innerCardTwo .cardUpper {
+    font-weight: 600;
+    font-size: 1.4rem;
+    padding-top: 4px;
+    padding-bottom: 20px;
+}
+
+.innerCardOne p span, .innerCardTwo p span {
+    color: var(--red);
+}
+
+.innerCardOne p {
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 40px 80px 0px 80px;
+}
+
+
+.innerCardTwo div .cardText {
+    margin-top: -15px;
+    font-weight: 600;
+}
+
+.innerCardTwo div {
+    margin-top: 40px;
+}
+
+.card3 {
+    background: #FFFFFF;
+    box-shadow: 0px 11px 77px rgba(0, 0, 0, 0.1);
+    border-radius: 13px;
+    padding: 0 30px;
+}
+
+.card3 p {
+    font-weight: 600;
+    font-size: 1.05rem;
+}
+
+.card3 p span {
+    color: var(--red);
+}
+
+.colorGreen {
+    color: #BADC58 !important;
+    font-weight: 500;
+}
+
+.card3 p:nth-child(1) {
+    padding-top: 15px;
+}
+
+.card3 p:last-child {
+    padding-bottom: 15px;
+}
+
+.roadmap {
+    background: url("/roadmapImage.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 170px;
+    margin-top: -25px;
+}
+
+.extraWrapper {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.extraWrapper h1 {
+    color: white;
+    text-decoration: underline;
+    font-size: 2.2rem;
+    text-align: center;
+    position: relative;
+    font-weight: 500;
+    top: 50px;
+}
+
+.roadmapContent {
+    color: white;
+    position: relative;
+    top: 70px;
+    margin: 0 auto;
+    width: 90%;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-row-gap: 40px;
+    overflow: hidden;
+
+}
+
+.one {
+    display: flex;
+    align-items: center;
+}
+
+.roadmapText {
+    background: #FFFFFF;
+    color: var(--dark);
+    width: 80%;
+    border-radius: 0px 10px 10px 0px;
+    padding: 30px;
+    border-left: 3px solid var(--red);
+}
+
+.roadmapText p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.one .circle {
+    width: 28px;
+    height: 28px;
+    background: var(--red);
+    border-radius: 50%;
+    position: relative;
+    z-index: 900;
+}
+
+.date {
+    margin-right: 20px;
+    font-size: 1.1rem;
+    width: 72px;
+    font-weight: 500;
+}
+
+.one:nth-child(1) .line {
+    background: #df7d83;
+}
+
+.line {
+    width: 30px;
+    height: 5px;
+    background: #F19298;
+}
+
+.bigLine {
+    width: 5px;
+    position: absolute;
+    height: 767px;
+    margin-left: 104px;
+    margin-top: 80px;
+    background: #F19298;
+}
+
+
+.beyond span {
+    display: block;
+    position: absolute;
+    margin-left: -35px;
 }
