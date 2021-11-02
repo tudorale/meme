@@ -32,7 +32,8 @@ export default function Home() {
         <div className={styles.rightHero}>
         </div>
       </div>
-
+      
+      <div id="work" className={styles.trick}></div>
       <div className={styles.phases}>
         <div className={styles.phaseOne}>
           <p className={styles.upper}>Phase 1</p>
@@ -55,7 +56,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className={styles.sectionOne} id="work">
+      <div className={styles.sectionOne}>
         <div className={styles.sectionContent}>
           <h1>How will we get the Normies?</h1>
           <div className={styles.sectionGrid}>

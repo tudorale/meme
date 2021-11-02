@@ -70,6 +70,14 @@
     position: relative;
 }
 
+.trick {
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    z-index: -2;
+    position: absolute;
+}
+
 .phases {
     width: 985px;
     margin: 30px auto;
