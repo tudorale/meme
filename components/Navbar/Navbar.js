@@ -83,7 +83,7 @@ function Navbar() {
                     </div>
                     <div className={styles.mobileLogo}>
                         <Link passHref href="/">
-                            <Image src="/logo.png" alt="logo" width="210px" height="45"/>
+                            <img src="/logo.png" alt="logo" width="210px" height="45"/>
                         </Link>
                     </div>
                 </div>
