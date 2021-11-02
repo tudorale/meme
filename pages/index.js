@@ -77,7 +77,7 @@ export default function Home() {
                 <p>Influencers inform their followers of their creation and upcoming sale</p>
               </div>
 
-              <div className={styles.criteria}>
+              <div className={styles.criteria} style={{marginTop: "20px"}}>
                 <div className={styles.number}>4</div>
                 <p>MemeMarketplace serves as the<br/> Normie NFT On-Ramp</p>
               </div>
@@ -232,7 +232,7 @@ export default function Home() {
               <p><span>MEME</span> is deflationary with its scarcity secured by Marketplace Profits</p>
               <p>BURN every <span className={styles.colorGreen}>3 months using 17.77%</span> of MemeMarketplace profits</p>
               <p>Profits will be used to purchase Tokens off the Floor and BURN them sending, them to the Shadow Realm <span className={styles.colorGreen}>NEVER</span> to return.  </p>
-              <p>$MEME will continue to be burned in 3 month increments until <span>50%</span> of all Tokens are BURNED </p>
+              <p><span>MEME</span> will continue to be burned in 3 month increments until <span>50%</span> of all Tokens are BURNED </p>
             </div>
           </div>
         </div>
