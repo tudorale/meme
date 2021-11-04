@@ -58,6 +58,7 @@ export default function Home() {
       <div className={styles.sectionOne}>
         <div className={styles.sectionContent}>
           <h1>How will we get the Normies?</h1>
+          <h2>*** WARNING *** Video for NORMIE eyes ONLY!!!</h2>
           <div className={styles.sectionGrid}>
             <div className={styles.sectionLeft}>
 
@@ -256,7 +257,7 @@ export default function Home() {
               <div className={styles.roadmapText}>
                 <span className={styles.innerDate}>Q4 2021</span>
                 <p>- Social Media Campaign</p>
-                <p>- First Meme Company to Release a Meme Token center stage</p>
+                <p>- First Meme Company to Release a Meme Token takes center stage</p>
                 <p>- 40% of MEME Max Supply is Airdropped</p>
                 <p>- Focus on Core Team expansion</p>
                 <p>- Development of MemeMarketplace Exchange</p>

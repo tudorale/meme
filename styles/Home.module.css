@@ -136,7 +136,7 @@
     margin: 0px auto;
     text-align: center;
     position: relative;
-    top: 70px;
+    top: 30px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -146,13 +146,21 @@
 .sectionContent h1 {
     color: white;
     text-decoration: underline;
+    font-size: 1.8rem;
+}
+
+.sectionContent h2{
+    color: white;
+    text-decoration: none;
     font-size: 2.2rem;
+    top: -40px;
+    position: relative;
 }
 
 .sectionGrid {
     display: grid;
     position: relative;
-    top: 90px;
+    top: 40px;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 50px;
 }
@@ -548,9 +556,7 @@
 }
 
 @media only screen and (max-width: 1115px){
-    .sectionContent h1 {
-        color: white;
-        text-decoration: none;
+    .sectionContent h2 {
         font-size: 2.1rem;
     }
 
@@ -561,7 +567,7 @@
     .sectionGrid {
         display: grid;
         position: relative;
-        top: 30px;
+        top:-10px;
         grid-template-columns: 1fr;
         grid-row-gap: 100px;
         width: 80%;
@@ -908,6 +914,10 @@
 @media only screen and (max-width: 480px){
     .tokenomicsContent h1 {
         font-size: 2.8rem;
+    }
+
+    .sectionContent h2 {
+        font-size: 2rem;
     }
 
     .tokenomicsContent h1:nth-child(2):after {
