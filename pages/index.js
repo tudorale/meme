@@ -5,6 +5,11 @@ import Link from "next/link"
 import Footer from '../components/Footer/Footer'
 
 export default function Home() {
+
+  const openPdf = () => {
+    window.open("/paper.pdf")
+  }
+
   return (
     <div className={styles.container}>
       <Head>
@@ -23,7 +28,7 @@ export default function Home() {
 
             <div className={styles.buttons}>
               <Link passHref href="/airdrop"><p>AirDrop <b>IN PROGRESS</b></p></Link>
-              <Link passHref href="/memepaper"><p>MemePaper Coming Soon!</p></Link>
+              <p onClick={() => openPdf()}>MemePaper</p>
             </div>
           </div>
           <div className={styles.addon}></div>
