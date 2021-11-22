@@ -27,7 +27,7 @@ export default function Home() {
             <h2>Be Dreams!</h2>
 
             <div className={styles.buttons}>
-              <Link passHref href="/airdrop"><p>AirDrop <b>IN PROGRESS</b></p></Link>
+              <a href="https://trade.dexlab.space/#/market/GB3C6u9Bstk3JwAFwkjRm8N6b3HaTKLhdD91W9ScMTmM"><p>AirDrop <b>COMPLETE</b></p></a>
               <p onClick={() => openPdf()}>MemePaper</p>
             </div>
           </div>
