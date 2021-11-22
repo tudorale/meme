@@ -67,7 +67,7 @@ function Navbar() {
                     </div>
 
                     <ul>
-                        <Link passHref href="/airdrop"><li>AirDrop</li></Link>
+                        <a href="https://trade.dexlab.space/#/market/GB3C6u9Bstk3JwAFwkjRm8N6b3HaTKLhdD91W9ScMTmM"><li>AirDrop</li></a>
                         <Link passHref href="#work"><li>How does it work?</li></Link>
                         <Link passHref href="#tokenomics"><li>Tokenomics</li></Link>
                         <Link passHref href="#roadmap"><li>Roadmap</li></Link>
@@ -90,7 +90,7 @@ function Navbar() {
 
                 <div className={styles.mobileLinks}>
                     <ul>
-                        <Link passHref href="/airdrop"><li>AirDrop</li></Link>
+                        <a href="https://trade.dexlab.space/#/market/GB3C6u9Bstk3JwAFwkjRm8N6b3HaTKLhdD91W9ScMTmM"><li>AirDrop</li></a>
                         <Link passHref href="#work"><li>How does it work?</li></Link>
                         <Link passHref href="#tokenomics"><li>Tokenomics</li></Link>
                         <Link passHref href="#roadmap"><li>Roadmap</li></Link>
