@@ -361,45 +361,6 @@
     padding: 0px 70px 30px 70px;
 }
 
-.card2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 30px;
-}
-
-.innerCardOne, .innerCardTwo {
-    height: 270px;
-    background: #FFFFFF;
-    box-shadow: 0px 11px 77px rgba(0, 0, 0, 0.1);
-    border-radius: 13px;
-}
-
-.innerCardOne .cardUpper, .innerCardTwo .cardUpper {
-    font-weight: 600;
-    font-size: 1.4rem;
-    padding-top: 4px;
-    padding-bottom: 20px;
-}
-
-.innerCardOne p span, .innerCardTwo p span {
-    color: var(--red);
-}
-
-.innerCardOne p {
-    font-size: 1.1rem;
-    font-weight: 600;
-    padding: 40px 80px 0px 80px;
-}
-
-
-.innerCardTwo div .cardText {
-    margin-top: -15px;
-    font-weight: 600;
-}
-
-.innerCardTwo div {
-    margin-top: 40px;
-}
 
 .card3 {
     background: #FFFFFF;
@@ -854,11 +815,6 @@
 @media only screen and (max-width: 515px){
     .content .wrapper {
         grid-template-columns: 60px 190px 120px;
-    }
-
-    .card2 {
-        grid-template-columns: 1fr;
-        grid-row-gap: 20px;
     }
 
     .tokenomicsContent {

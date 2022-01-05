@@ -214,28 +214,7 @@ export default function Home() {
                   <p>Emergency Reserve Fund</p>
                 </div>
               </div>
-            </div>
-          
-            <div className={styles.card2}>
-              <div className={styles.innerCardOne}>
-                <p className={styles.cardUpper}>Utility</p>
-                <p className={styles.cardText}>
-                <span>MEME</span> will be used to save on marketplace fees and receive discounts
-                </p>
-              </div>
-
-              <div className={styles.innerCardTwo}>
-                <p className={styles.cardUpper}>Discounts</p>
-                <div>
-                  <p className={styles.cardText}><span>1st</span> Year - 50%</p>
-                  <p className={styles.cardText}><span>2nd</span> Year - 25%</p>
-                  <p className={styles.cardText}><span>3rd</span> Year - 12.5%</p>
-                  <p className={styles.cardText}><span>4th</span> Year - 6.75%</p>
-                  <p className={styles.cardText}><span>5th+ Year</span> - No Discount</p>
-                </div>
-              </div>
-            </div>
-         
+            </div>   
             <div className={styles.card3}>
               <p><span>MEME</span> is deflationary with its scarcity secured by Marketplace Profits</p>
               <p>BURN every <span className={styles.colorGreen}>3 months using 17.77%</span> of MemeMarketplace profits</p>
